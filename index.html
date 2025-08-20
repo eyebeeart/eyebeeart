@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <header>
+    <nav class="navbar">
+    <div class="navbar1">
+    <div class="logo">Eyebee Awt</div>
+    <div class="menu-icon" id="menu-icon">
+        <span id="menu-open">☰</span>
+        <span id="menu-close" style="display:none;">✖</span>
+    </div>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  
+</nav>
+</header>
+
+
+
+
+<!-- overlay -->
+<div class="overlay"></div>
+
+
+
+  <!-- Hero -->
+  <section class="hero">
+  <div class="hero-content">
+    <h1>Build Modern, Responsive Websites</h1>
+    <p>We create fast, user-friendly, and visually stunning websites tailored to your brand.</p>
+    <div class="hero-buttons">
+      <a href="#services" class="btn-primary">Get Started</a>
+      <a href="#about" class="btn-secondary">Learn More</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="imgs/hero.jpg" alt="Hero Illustration">
+  </div>
+</section>
+
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <h2>Our Features</h2>
+    <div class="feature-grid">
+      <div class="card fade-in">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Responsive Design</h3>
+        <p>Your website will look great on any device, anytime.</p>
+      </div>
+      <div class="card fade-in">
+        <i class="fas fa-rocket"></i>
+        <h3>Fast Performance</h3>
+        <p>Optimized for speed to deliver a smooth user experience.</p>
+      </div>
+      <div class="card fade-in">
+        <i class="fas fa-lock"></i>
+        <h3>Secure</h3>
+        <p>Keeping your data and your customers safe is our priority.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+<section id="about" class="about">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="/imgs/collab.jpg" alt="About MyStartup" />
+    </div>
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        At MyStartup, we are passionate about building modern solutions that
+        make life easier. Our mission is to deliver high-quality products
+        designed with both functionality and style in mind.
+      </p>
+      <p>
+        We believe in innovation, simplicity, and creating experiences that
+        truly matter.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="section">
+  <div class="container">
+    <h2 class="section-title">My Projects</h2>
+    <div class="portfolio-grid">
+      <div class="project-card">
+        <img src="/imgs/d.png" alt="Project 1">
+        <div class="project-content">
+          <h3>Calculator</h3>
+          <p>A fun web app to test your typing speed using JavaScript.</p>
+          <a href="#" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/imgs/furniture.png" alt="Project 2">
+        <div class="project-content">
+          <h3>E-Commerce Website</h3>
+          <p>Fully responsive online store with cart functionality.</p>
+          <a href="#" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/imgs/Desktop1.png" alt="Project 3">
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>A sleek personal website built with HTML, CSS, and JS.</p>
+          <a href="#" target="_blank" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Testimonials Section -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <h2 class="section-title">What Our Clients Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img src="/imgs/head.jpg" alt="Client 1">
+        <h3>James Carter</h3>
+        <p>"This service exceeded our expectations. The website looks stunning and performs flawlessly!"</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="/imgs/head.jpg" alt="Client 2">
+        <h3>Sophia Lee</h3>
+        <p>"A reliable and professional developer. I would definitely recommend working with them again."</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="/imgs/head.jpg" alt="Client 3">
+        <h3>Michael Brown</h3>
+        <p>"Smooth process from start to finish. Great communication and top-notch results."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Pricing Section -->
+<section id="pricing" class="pricing">
+  <h2 class="section-title">Our Pricing Plans</h2>
+  <p class="section-subtitle">Choose the plan that fits your needs</p>
+  
+  <div class="pricing-container">
+    <!-- Basic Plan -->
+    <div class="pricing-card">
+      <h3>Basic</h3>
+      <p class="price">$19<span>/mo</span></p>
+      <ul>
+        <li>✔ 5 Projects</li>
+        <li>✔ Basic Support</li>
+        <li>✔ Access to Community</li>
+      </ul>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+
+    <!-- Pro Plan -->
+    <div class="pricing-card popular">
+      <span class="badge">Most Popular</span>
+      <h3>Pro</h3>
+      <p class="price">$49<span>/mo</span></p>
+      <ul>
+        <li>✔ 20 Projects</li>
+        <li>✔ Priority Support</li>
+        <li>✔ Advanced Features</li>
+      </ul>
+      <a href="#" class="btn">Choose Pro</a>
+    </div>
+
+    <!-- Premium Plan -->
+    <div class="pricing-card">
+      <h3>Premium</h3>
+      <p class="price">$99<span>/mo</span></p>
+      <ul>
+        <li>✔ Unlimited Projects</li>
+        <li>✔ 24/7 Support</li>
+        <li>✔ All Features Unlocked</li>
+      </ul>
+      <a href="#" class="btn">Go Premium</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="contact fade-in">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-logo">Eyebee Awt</div>
+
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="footer-socials">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+  <p class="footer-bottom">&copy; 2025 MyStartup. All Rights Reserved.</p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
